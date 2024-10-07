@@ -66,8 +66,7 @@
           type = "zfs_fs";
           options.mountpoint = "none";
         };
-        }
       };
     };
   };
-};
+}
