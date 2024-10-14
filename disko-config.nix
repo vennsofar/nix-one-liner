@@ -48,15 +48,15 @@
         };
         "base/root" = {
           type = "zfs_fs";
-          options.mountpoint = "legacy";
+          options.mountpoint = "/";
         };
         "base/nix" = {
           type = "zfs_fs";
-          options.mountpoint = "legacy";
+          options.mountpoint = "/nix";
         };
         "base/var" = {
           type = "zfs_fs";
-          options.mountpoint = "legacy";
+          options.mountpoint = "/var";
         };
         "data" = {
           type = "zfs_fs";
@@ -64,7 +64,7 @@
         };
         "data/home" = {
           type = "zfs_fs";
-          options.mountpoint = "/home";
+          options.mountpoint = "legacy";
         };
       };
     };
