@@ -64,7 +64,7 @@
         };
         "data/home" = {
           type = "zfs_fs";
-          options.mountpoint = "none";
+          options.mountpoint = "/home";
         };
       };
     };
